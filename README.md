@@ -1,4 +1,6 @@
-# Opencraft
+# Opencraft 
+
+[![DOI](https://zenodo.org/badge/295124000.svg)](https://zenodo.org/badge/latestdoi/295124000)
 
 This is the repository of Opencraft.
 Opencraft is a fork of [Glowstone](https://atlarge.ewi.tudelft.nl/gitlab/opencraft/minecraft-like-games/collector-glowstone).
