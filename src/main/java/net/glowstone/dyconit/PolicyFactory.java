@@ -14,12 +14,12 @@ final class PolicyFactory {
             case "Donnybrook":
                 System.out.println("Donnybrook policy loaded.");
                 return PolicyDonnybrook.setPolicy();
-            case "Epicenter":
+            case "Vectorfield":
                 System.out.println("Epicenter policy loaded.");
-                return PolicyEpicenter.setPolicy();
+                return PolicyVectorField.setPolicy();
             default:
-                System.out.println("Epicenter policy loaded.");
-                return PolicyEpicenter.setPolicy();
+                System.out.println("No policy loaded. Default policy loaded by default.");
+                return PolicyDefault.setPolicy();
         }
     }
 

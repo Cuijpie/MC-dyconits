@@ -3,6 +3,19 @@
 This is the repository of Opencraft.
 Opencraft is a fork of [Glowstone](https://atlarge.ewi.tudelft.nl/gitlab/opencraft/minecraft-like-games/collector-glowstone).
 
+## Using Opencraft with Dyconits
+
+Opencraft allows the usage of Dyconits. The implemented policies are Donnybrook and Vector-Field. To set up the policy
+for which the server needs to run on a `policyconfig.txt` file needs to be created in the `target/config` folder.
+
+- `cd /target/config`
+- `touch policyconfig.txt`
+- With your favorite text-editor edit `policyconfig.txt` such that it contains `policy=<policyname>`.
+- Current policies: `Donnybrook` and `Vectorfield`
+
+When OpenCraft is started without a `policyconfig.txt` file, then the server uses a Default policy active.
+The Default policy mimics a Minecraft-like game as it is implemented without Dyconits. 
+
 ## Updating Opencraft
 
 When compiling for the first time, you'll likely need to pull new commits from Glowstone's repository. Merge this code into the `dev` branch without fast-forwarding. E.g.,

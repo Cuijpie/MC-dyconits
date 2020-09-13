@@ -26,7 +26,6 @@ public class DyconitManager {
                      Entity entity,
                      GlowChunk.Key key) {
 
-
         UpdateMessage message = MessageFactory.createMessageObject(player, m, session, entity, key);
 
         chunks.insertDyconit(message.getKey(), message.getPlayer());

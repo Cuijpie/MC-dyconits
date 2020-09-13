@@ -1,7 +1,7 @@
 package net.glowstone.dyconit;
 
 /*
-Policy 1: Epicenter
+Policy 2: Vector-Field policy
  */
 
 import net.glowstone.chunk.GlowChunk;
@@ -39,6 +39,5 @@ class PolicyEpicenter implements IPolicy {
 
             sub.stalenessBound = km.getOrDefault(key, 100000);
         }
-
     }
 }

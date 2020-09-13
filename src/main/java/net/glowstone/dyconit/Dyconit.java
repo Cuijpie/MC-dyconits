@@ -32,14 +32,12 @@ class Dyconit {
         }
 
         boolean exceedBound() {
-            //TODO: check for numerical error bound
             if (Duration.between(timestampLastReset, Instant.now()).toMillis() > stalenessBound) {
                 timestampLastReset = Instant.now();
                 return true;
             }
             return false;
         }
-
     }
 
     void addSubscription(Player player) {

@@ -6,7 +6,6 @@ import net.glowstone.chunk.GlowChunk;
 import org.bukkit.entity.Player;
 
 class DyconitCollection {
-    //TODO: FIX CONCURRENCY ISSUE
     private Map<GlowChunk.Key, Dyconit> chunkList;
 
     DyconitCollection() {
